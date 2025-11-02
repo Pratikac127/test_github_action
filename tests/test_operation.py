@@ -4,6 +4,7 @@ from src.math_operation import add , sub
 def test_add():
     assert add(5,5)==10
     assert add(5,2)==7
+    assert add(4,5)==9
 
 def test_sub():
     assert sub(5 ,5 )==0
